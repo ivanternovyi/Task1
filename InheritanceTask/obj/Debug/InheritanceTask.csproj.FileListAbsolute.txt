@@ -1,0 +1,6 @@
+/home/ivan/RiderProjects/InheritanceTask/InheritanceTask/bin/Debug/InheritanceTask.exe
+/home/ivan/RiderProjects/InheritanceTask/InheritanceTask/bin/Debug/InheritanceTask.pdb
+/home/ivan/RiderProjects/InheritanceTask/InheritanceTask/obj/Debug/InheritanceTask.csprojResolveAssemblyReference.cache
+/home/ivan/RiderProjects/InheritanceTask/InheritanceTask/obj/Debug/InheritanceTask.csproj.CoreCompileInputs.cache
+/home/ivan/RiderProjects/InheritanceTask/InheritanceTask/obj/Debug/InheritanceTask.exe
+/home/ivan/RiderProjects/InheritanceTask/InheritanceTask/obj/Debug/InheritanceTask.pdb
