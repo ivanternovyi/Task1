@@ -1,0 +1,10 @@
+/home/ivan/RiderProjects/InheritanceTask/TestTask/obj/Debug/TestTask.csprojResolveAssemblyReference.cache
+/home/ivan/RiderProjects/InheritanceTask/TestTask/obj/Debug/TestTask.csproj.CoreCompileInputs.cache
+/home/ivan/RiderProjects/InheritanceTask/TestTask/bin/Debug/TestTask.dll
+/home/ivan/RiderProjects/InheritanceTask/TestTask/bin/Debug/TestTask.pdb
+/home/ivan/RiderProjects/InheritanceTask/TestTask/bin/Debug/InheritanceTask.exe
+/home/ivan/RiderProjects/InheritanceTask/TestTask/bin/Debug/nunit.framework.dll
+/home/ivan/RiderProjects/InheritanceTask/TestTask/bin/Debug/InheritanceTask.pdb
+/home/ivan/RiderProjects/InheritanceTask/TestTask/bin/Debug/nunit.framework.xml
+/home/ivan/RiderProjects/InheritanceTask/TestTask/obj/Debug/TestTask.dll
+/home/ivan/RiderProjects/InheritanceTask/TestTask/obj/Debug/TestTask.pdb

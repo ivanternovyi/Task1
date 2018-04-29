@@ -2,11 +2,11 @@
 
 namespace InheritanceTask
 {
-    public class Cylindr:Circle
+    public class Cylinder:Circle
     {
         private double height;
 
-        public Cylindr(Colour contour, Colour filling, double width = 0, double radius = 0, double height = 0)
+        public Cylinder(Colour contour, Colour filling, double width = 0, double radius = 0, double height = 0)
             : base(contour, filling, width, radius)
         {
             if(height < 0)
@@ -30,7 +30,7 @@ namespace InheritanceTask
         
         public override double Perimeter()
         {
-            var result = 4 * Math.PI * radius;
+            var result = 4 * Math.PI * radius + 2 * height;
             return result;
         }
 
