@@ -26,9 +26,9 @@ namespace InheritanceTask
             contourWidth = width;
         }
 
-        public virtual void Output()
+        public override string ToString()
         {
-            Console.Write($"Countour(Colour: { contour }, Width: { contourWidth }), Filling: {filling} ");
+            return  $"Countour(Colour: { contour }, Width: { contourWidth }), Filling: {filling} ";
         }
 
         public abstract double Square();

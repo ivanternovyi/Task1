@@ -14,11 +14,10 @@ namespace InheritanceTask
             thirdSide = third;
         }
         
-        public override void Output()
+        public override string ToString()
         {
-            Console.Write("Parallelepiped -> ");
-            base.Output();
-            Console.WriteLine($", Perimeter: { Perimeter() }, Square: { Square() }, Volume: { Volume() } ");
+            return $"Parallelepiped -> {base.ToString()}, Perimeter: { Perimeter() }, Square: { Square() }," +
+                   $" Volume: { Volume() } ";
         }
 
         public override double Square()

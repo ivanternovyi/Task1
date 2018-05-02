@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace InheritanceTask
 {
@@ -28,7 +29,7 @@ namespace InheritanceTask
         {
             foreach (var shape in dataShapes)
             {
-                shape.Output();
+                Console.WriteLine(shape);
             }
         }
 

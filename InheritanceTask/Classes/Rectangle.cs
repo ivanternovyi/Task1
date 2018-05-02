@@ -16,11 +16,9 @@ namespace InheritanceTask
             secondSide = second;
         }
 
-        public override void Output()
+        public override string ToString()
         {
-            Console.Write("Rectangle -> ");
-            base.Output();
-            Console.WriteLine($", Perimeter: { Perimeter() }, Square: { Square() } ");
+            return $"Rectangle -> {base.ToString()}, Perimeter: { Perimeter() }, Square: { Square() } ";
         }
 
         public override double Square()

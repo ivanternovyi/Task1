@@ -13,11 +13,9 @@ namespace InheritanceTask
             this.radius = radius;
         }
 
-        public override void Output()
+        public override string ToString()
         {
-            Console.Write("Circle -> ");
-            base.Output();
-            Console.WriteLine($", Perimeter: { Perimeter() }, Square: { Square() } ");
+            return $"Circle -> {base.ToString()} , Perimeter: { Perimeter() }, Square: { Square() } ";
         }
 
         public override double Square()

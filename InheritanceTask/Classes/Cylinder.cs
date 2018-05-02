@@ -14,11 +14,10 @@ namespace InheritanceTask
             this.height = height;
         }
         
-        public override void Output()
+        public override string ToString()
         {
-            Console.Write("Cylinder -> ");
-            base.Output();
-            Console.WriteLine($", Perimeter: { Perimeter() }, Square: { Square() }, Volume: { Volume() } ");
+            return $"Cylinder -> {base.ToString()}, Perimeter: { Perimeter() }, Square: { Square() }," +
+                   $" Volume: { Volume() } ";
         }
 
         public override double Square()
