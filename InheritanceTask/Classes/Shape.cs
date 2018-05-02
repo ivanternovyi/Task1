@@ -21,7 +21,7 @@ namespace InheritanceTask
         {
             this.contour = contour;
             this.filling = filling;
-            if(contourWidth < 0)
+            if(width < 0)
                 throw new ArgumentException("Value should be > 0");
             contourWidth = width;
         }
